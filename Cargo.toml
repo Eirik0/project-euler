@@ -1,6 +1,6 @@
 [package]
-name = "project-euler"
+name = "project_euler"
 version = "0.1.0"
-authors = ["Eirik0 <eirik@z.cash>"]
+authors = ["Eirik0 <eowigley@gmail.com>"]
 
 [dependencies]
