@@ -1,3 +1,7 @@
+extern crate project_euler;
+
+use project_euler::problems;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Answer: {}", problems::problem001::solve());
 }
