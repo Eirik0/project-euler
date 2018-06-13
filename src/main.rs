@@ -1,7 +1,9 @@
-extern crate project_euler;
+use std::time::Instant;
 
-use project_euler::problems;
+pub mod problems;
 
 fn main() {
-    println!("Answer: {}", problems::problem001::solve());
+    let now = Instant::now();
+    println!("Answer: {}", problems::problem006::solve());
+    println!("{:.3}ms", now.elapsed().subsec_nanos() as f64 / 1000000.0);
 }
